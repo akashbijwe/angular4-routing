@@ -1,0 +1,124 @@
+Tejas Topics
+==================
+    Javascript
+    ------------------------------------------
+        - javascript basics --
+        - What is Object --
+        - Prototype -- 
+        - "this" reference in detail --
+        - classes in javascript
+        - __proto__ --
+        - closures --
+        - this reference in closures --
+        - this reference in normal function call --
+        - this reference in arrow function --
+        - variable hoisting (try as many examples as you can ) --
+        - ecma5 -- 
+        - object methods -- 
+        - Object and array destruction --
+        - event propagation and how to avoid it --
+        - event bubbling --
+        - call, apply, bind in details -- bind
+        - array methods --
+        -  Yield
+        - new Set --
+        - object literal getter setter
+        - ecma6 --
+        - ecma6 in details -- https://webapplog.com/es6/
+        - var, let, constant --
+        - Javascript design patterns
+
+    Typescript
+    -------------------------------------------
+        - configuration
+        - Inheritance
+        - interface
+        - abstract classes
+        - variable data type
+        - constructor
+        - how to assign a default value to a variable
+
+    Angular
+    -------------------------------------------
+        - Angular 6 features
+        - Router in details
+        - Name router outlets
+        - dependency injection
+        - Webpack in details
+        - prod build vs dev build
+        - change detection in detail
+        - zone js
+        - polyfills
+
+
+
+Haroon Topics
+===================
+    Angular
+    --------------
+        refName & how to use refName
+        behaviour subject, subject
+        @viewChild
+        @contentChild
+        HostListener
+        Host Binding
+        Directives
+        Elementref
+        Renderer
+        Router  - In Detail
+        Pipes
+        Guards
+        entry component, How to create component dynamically(factory resolver)
+        Value accessor
+        Change Detection strategy
+        viewEncapsulation
+        observable, cold vs hot observable
+        viewContainerRef
+        ngTemplate, ngTemplateOutlet
+        module with providers
+        .map & .catch error handling
+        promise vs observables
+        angular build commands for optimization
+        *ngIf, *ngIfElse, *ngIfThen
+        async pip
+        AOT, JIT
+        tuple
+        RXJS operators
+
+
+    Javascript
+    ---------------------
+        Arrow function
+        empty  vs remove vs detach
+        SVG vs canvas
+        break return continue
+        callbacks
+        substring
+        HTML5 new things
+        Ajax syntax(jquery & JS)
+        object.assign[$.extend()]
+        Object.create
+        DOM manipulation
+        try catch syntax
+        switch case
+        array methods
+        Object methods
+        spread operator
+        local storage & session storage
+        string manipulation methods
+        find() , fundIndex(), indexOf()
+        isprototyeOf, hasOwnProperty, instanecOf
+        window.location
+        enum
+        destructuring [x,y]=[1,2]
+        ES6 New features
+        public, private, static 
+        Loops: of(array), in(JSON object)
+        Javascript design patterns
+
+
+    CSS
+    ----------
+        pseudo-class in CSS
+        CSS operators
+        flex based css
