@@ -1,0 +1,87 @@
+/*
+  1. shallow copying & depp copying
+  2. use of 'use strict' with 'this' in javascript
+  3. 
+*/
+
+
+// check it the given number is a number
+function isNumber(val) {
+  val = parseInt(val);
+  if (typeof (val) == 'number') {
+    console.log("number");
+  } else {
+    console.log("Not a number");
+  }
+}
+isNumber('1')
+
+
+// What wil be the output in console.log
+var number = 1;
+var object = { value: 1 }
+function increaseN(number) {
+  number = number + 1
+}
+function increaseO(object) {
+  object.value++;
+}
+increaseN(number)
+increaseO(object)
+console.log(number);
+console.log(object);
+
+
+// What wil be the output in console.log
+a = 'a';
+b = 'b';
+b = a;
+
+function foo(a) {
+  a = 'a-1';
+}
+foo(a);
+console.log(a);
+
+
+
+// write a function which will accept N number of arguments
+add(1, 2);
+add(1, 2, 3, 4, 4);
+
+function add() {
+  var abc = 0;
+  for (let i = 0; i < arguments.length; i++) {
+    abc = abc + arguments[i]
+  }
+  console.log(abc);
+}
+
+
+// What wil be the output in console.log
+var where = "out";
+function locate() {
+  console.log("LOCATE", where);
+  var where = "in";
+};
+locate();
+
+
+// 1. Write a program to sort an object
+// 2. Write a program to shuffle the array.
+var a = [1, 2, 3, 4, 5, 6, 7, 8];
+var b = [{ v: '3' }, { v: '2' }];
+
+function random(arr) {
+  var newVal = 0;
+  var newObj = [];
+  for (var i = 0; i < arr.length; i++) {
+    console.log("arr", arr);
+    if (newVal < arr[i][v]) {
+      newObj.push({ v: arr[i][v] });
+    } else {
+      newObj.push({ v: arr[i][v] });
+    }
+  }
+}
+random(b);
